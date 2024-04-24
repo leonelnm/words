@@ -1,0 +1,21 @@
+---
+import WordLayout from "../layouts/WordLayout.astro";
+import { getLastPublication } from "../repo/data";
+
+export async function getStaticPaths() {
+	const lastPost = await getLastPublication();
+	return [
+		{
+			params: lastPost.params,
+			props: lastPost.props,
+		},
+	];
+}
+
+const { entry, next } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<WordLayout entry={entry} next={next}>
+	<Content />
+</WordLayout>

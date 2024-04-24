@@ -1,0 +1,15 @@
+---
+import WordLayout from "../../layouts/WordLayout.astro";
+import { getPublicationsWithoutFirst } from "../../repo/data";
+
+export async function getStaticPaths() {
+  return await getPublicationsWithoutFirst();
+}
+
+const { entry, next, prev, prevIsIndex } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<WordLayout entry={entry} next={next} prev={prev} prevIsIndex={prevIsIndex}>
+  <Content />
+</WordLayout>

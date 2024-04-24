@@ -1,0 +1,20 @@
+---
+import type { CollectionEntry } from "astro:content";
+import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  prevIsIndex?: boolean;
+  prev?: CollectionEntry<"words">;
+  entry: CollectionEntry<"words">;
+  next: CollectionEntry<"words"> | undefined;
+}
+
+const { entry, prev, next, prevIsIndex } = Astro.props;
+---
+
+<BaseLayout title={entry.data.title}>
+  <slot />
+  {prev && prevIsIndex && <a href="/">Anterior HOME</a>}
+  {prev && !prevIsIndex && <a href={`/words/${prev.slug}`}>Anterior</a>}
+  {next && <a href={`/words/${next.slug}`}>Siguiente</a>}
+</BaseLayout>
