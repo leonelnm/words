@@ -1,0 +1,36 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  prevIsIndex?: boolean;
+  prev?: CollectionEntry<"words">;
+  next: CollectionEntry<"words"> | undefined;
+}
+
+const { prev, next, prevIsIndex } = Astro.props;
+---
+
+<footer class="flex justify-between pt-6 text-base font-semibold leading-7">
+  <div>
+    {
+      prev && (
+        <a
+          href={prevIsIndex ? "/" : "/words/" + prev.slug}
+          class="text-sky-700 hover:text-sky-900"
+        >
+          &larr; Anterior
+        </a>
+      )
+    }
+  </div>
+
+  {
+    next && (
+      <div>
+        <a href={`/words/${next.slug}`} class="text-sky-700 hover:text-sky-900">
+          Siguiente &rarr;
+        </a>
+      </div>
+    )
+  }
+</footer>

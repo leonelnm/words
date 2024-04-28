@@ -29,6 +29,6 @@ export const getPublicationsWithoutFirst = async () => {
 }
 
 const getWordsOrderByDateDesc = async () => {
-  const wordsEntries = await getCollection("words");
+  const wordsEntries = await getCollection("words", ({ data }) => !data.isDraft);
   return wordsEntries.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 }
