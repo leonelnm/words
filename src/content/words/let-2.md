@@ -1,35 +1,13 @@
 ---
-date: 2024-04-23
-title: "Hola Amor - rayuela"
-tags: ["amor", "saludo", "dedicatoria"]
+date: 2024-04-02
+title: "Besos"
+tags: ["amor"]
 ---
 
-no estás en mí
-en términos metódicos
+**Besos**
 
-estoy
-del otro lado
-no te alcanzo
-no paso de tu cuerpo
-porque estás
-detrás
-de las horas
+En tus besos encuentro el cielo,  
+en tus abrazos el consuelo.
 
-pero, ¿para qué definir
-lo que recomienza
-cada mañana?
-
-metafísicas distantes
-atrayéndose y rechazándose
-en el desorden
-
-¿por qué no aceptar
-lo que está ocurriendo
-sin pretender explicarlo?
-
-no quiero
-convertirte en palabras
-fractales
-de un infinito
-asequible
-solo a largo plazo
+Confieso que sin ti no sé,  
+cómo seguir, cómo vivir después.

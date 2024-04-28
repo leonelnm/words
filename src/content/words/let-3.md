@@ -1,35 +1,7 @@
 ---
-date: 2024-04-21
-title: "Hola Amor - tercero"
-tags: ["amor", "saludo", "dedicatoria"]
+date: 2024-04-03
+title: "Juntos"
+tags: ["amor","gracias"]
 ---
 
-no estás en mí
-en términos metódicos
-
-estoy
-del otro lado
-no te alcanzo
-no paso de tu cuerpo
-porque estás
-detrás
-de las horas
-
-pero, ¿para qué definir
-lo que recomienza
-cada mañana?
-
-metafísicas distantes
-atrayéndose y rechazándose
-en el desorden
-
-¿por qué no aceptar
-lo que está ocurriendo
-sin pretender explicarlo?
-
-no quiero
-convertirte en palabras
-fractales
-de un infinito
-asequible
-solo a largo plazo
+Desde que estamos juntos, he sentido una conexión especial contigo. Me gusta cómo podemos hablar de cualquier cosa y cómo siempre estás ahí para apoyarme. Quiero que sepas que valoro mucho nuestra relación y todo lo que compartimos.
