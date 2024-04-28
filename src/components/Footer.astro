@@ -16,7 +16,7 @@ const { prev, next, prevIsIndex } = Astro.props;
       prev && (
         <a
           href={prevIsIndex ? "/" : "/words/" + prev.slug}
-          class="text-sky-700 hover:text-sky-900"
+          class="text-sky-500 hover:text-sky-600"
         >
           &larr; Anterior
         </a>
@@ -27,7 +27,7 @@ const { prev, next, prevIsIndex } = Astro.props;
   {
     next && (
       <div>
-        <a href={`/words/${next.slug}`} class="text-sky-700 hover:text-sky-900">
+        <a href={`/words/${next.slug}`} class="text-sky-500 hover:text-sky-600">
           Siguiente &rarr;
         </a>
       </div>
