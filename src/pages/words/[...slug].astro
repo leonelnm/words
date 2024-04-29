@@ -6,10 +6,10 @@ export async function getStaticPaths() {
   return await getPublicationsWithoutFirst();
 }
 
-const { entry, next, prev, prevIsIndex } = Astro.props;
+const { entry, next, prev } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<WordLayout entry={entry} next={next} prev={prev} prevIsIndex={prevIsIndex}>
+<WordLayout entry={entry} next={next} prev={prev}>
   <Content />
 </WordLayout>

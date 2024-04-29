@@ -4,28 +4,22 @@ export const getLastPublication = async () => {
   const wordsEntries = await getWordsOrderByDateDesc();
 
   return {
-    params: { slug: '/' },
-    props: {
-      entry: wordsEntries[0],
-      next: wordsEntries[1]
-    }
+    entry: wordsEntries[0]
   }
 }
 
 export const getPublicationsWithoutFirst = async () => {
   const wordsEntries = await getWordsOrderByDateDesc();
-  const entries = wordsEntries.map((entry, index) => {
+  return wordsEntries.map((entry, index) => {
     return {
       params: { slug: entry.slug },
       props: {
         entry,
-        prevIsIndex: index === 1,
         prev: index > 0 ? wordsEntries[index - 1] : undefined,
         next: index < wordsEntries.length - 1 ? wordsEntries[index + 1] : undefined
       }
     }
   });
-  return entries.slice(1);
 }
 
 const getWordsOrderByDateDesc = async () => {

@@ -4,13 +4,12 @@ import BaseLayout from "./BaseLayout.astro";
 import Footer from "../components/Footer.astro";
 
 interface Props {
-  prevIsIndex?: boolean;
   prev?: CollectionEntry<"words">;
   entry: CollectionEntry<"words">;
   next: CollectionEntry<"words"> | undefined;
 }
 
-const { entry, prev, next, prevIsIndex } = Astro.props;
+const { entry, prev, next } = Astro.props;
 ---
 
 <BaseLayout title={entry.data.title}>
@@ -28,7 +27,7 @@ const { entry, prev, next, prevIsIndex } = Astro.props;
           <slot />
         </div>
 
-        <Footer prev={prev} next={next} prevIsIndex={prevIsIndex} />
+        <Footer prev={prev} next={next} />
       </div>
     </div>
   </article>
