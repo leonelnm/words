@@ -33,7 +33,7 @@ const showDate = (date: Date) => {
 					class="space-y-6 py-8 text-base leading-7 text-gray-600 leading-7"
 					transition:animate="fade"
 				>
-					<p>Hola mi amor ❤️!</p>
+					<p id="saludo">Hola mi amor ❤️!</p>
 				</div>
 
 				<footer class="flex justify-end pt-6 text-base font-semibold leading-7">
@@ -48,3 +48,14 @@ const showDate = (date: Date) => {
 		</div>
 	</article>
 </BaseLayout>
+
+<script>
+	const box = document.getElementById("saludo");
+	if (box != null) {
+		const fechaActual = new Date();
+		const horaActual = fechaActual.getHours();
+		if (horaActual < 11) {
+			box.innerText = "Buenos días mi amor ❤️!";
+		}
+	}
+</script>
