@@ -1,9 +1,14 @@
 ---
-date: 2024-05-03
-title: "felicidades 🚀"
-tags: ["felicitación"]
-isDraft: true
+date: 2024-05-13
+title: "confesión"
+tags: ["confesión, esperanza"]
+isDraft: false
 ---
-Cuánto me llena de alegría verte tan cerca de cumplir ese sueño que tanto has anhelado. Cada acción te acerca más y más a esa meta, eso me llena de orgullo y felicidad; tu esfuerzo y tu dedicación son incalculables y demasiado valiosos.
 
-Te deseo lo mejor en este emocionante viaje que estás a punto de emprender 🚀
+**¿Quieres la verdad?**  
+
+Bien, aqui esta:  
+
+Mi mayor sueño es construir un futuro contigo, lleno de risas y complicidad. Imagino más momentos bailando en la cocina, cantando a todo pulmón en el coche, y disfrutando de cada instante juntos.
+
+Se que parece algo complicado y lejano, pero tengo esa intención 🙃🍀
