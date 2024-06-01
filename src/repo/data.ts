@@ -26,3 +26,11 @@ const getWordsOrderByDateDesc = async () => {
   const wordsEntries = await getCollection("words", ({ data }) => !data.isDraft);
   return wordsEntries.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 }
+
+export const showDate = (date: Date) => {
+  return date.toLocaleString("es-es", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+};

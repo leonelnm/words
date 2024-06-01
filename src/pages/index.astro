@@ -1,16 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { getLastPublication } from "../repo/data";
+import { getLastPublication, showDate } from "../repo/data";
 
 const { entry } = await getLastPublication();
-
-const showDate = (date: Date) => {
-	return date.toLocaleString("es-es", {
-		year: "numeric",
-		month: "2-digit",
-		day: "2-digit",
-	});
-};
 ---
 
 <BaseLayout title="Hola amor · Inicio">
@@ -22,7 +14,8 @@ const showDate = (date: Date) => {
 				<p class="text-xs text-gray-500">
 					<time
 						datetime={showDate(entry.data.date)}
-						title={entry.data.date.toLocaleDateString("es-es")}
+						title={"entry last pubdate: " +
+							entry.data.date.toLocaleDateString("es-es")}
 						>{showDate(entry.data.date)}</time
 					>
 				</p>
