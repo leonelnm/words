@@ -1,12 +1,12 @@
 ---
 interface Props {
-  songs: Song[];
+  songs?: Song[];
 }
 
 interface Song {
   image?: string;
   url: string;
-  text: string;
+  text?: string;
 }
 
 const { songs } = Astro.props;
@@ -19,7 +19,6 @@ const { songs } = Astro.props;
         class="rounded"
         src={songs[0].url}
         style="width:100%;aspect-ratio:16/9"
-        frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
         title={songs[0].text}
