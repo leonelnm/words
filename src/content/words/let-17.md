@@ -1,13 +1,12 @@
 ---
-date: 2024-06-02
-title: "adios"
-tags: ["despedida"]
-isDraft: true
+date: 2024-06-13
+title: "alegría"
+tags: ["dedicatoria, música"]
+isDraft: false
+songs: 
+  - url: https://www.youtube.com/embed/4dyjL34qDis?si=EH8PCw3Lv9nrNsiT,
+    text: Beéle - Morena
 ---
 
-¿Cómo me despido de ti si te quiero tanto?  
-¿Cómo hago para desaparecerte de mi historia y aceptar que los recuerdos, las risas, los bailes, los abrazos gigantes, los besos llegaron hasta aquí?  
-¿Cómo hago para entender que nuestra historia acabó, que lo que imaginamos juntos ya no llegará y que nunca volveremos a vernos igual?  
-
-Para mi son preguntas que aun no encuentro respuesta, supongo que el tiempo ayudará con esto, por ahora solo puedo decirte, adios, buen viaje, te quiero ❤️...
+Solo se que escucharla me invita a pensarte y me da felicidad 🌻
 

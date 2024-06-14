@@ -3,10 +3,10 @@ date: 2024-06-02
 title: "In Case You Didn't Know - Brett Young"
 tags: ["dedicatoria"]
 isDraft: false
-songs: [{
-  url: https://www.youtube.com/embed/ubEoyScTwM0?si=Tp6sPMhd5ITPRmcS,
-  text: In Case You Didn't Know - Brett Young
-}]
+songs: 
+  - url: https://www.youtube.com/embed/ubEoyScTwM0?si=Tp6sPMhd5ITPRmcS,
+    text: In Case You Didn't Know - Brett Young
+
 ---
 
 En caso de que no lo supieras  
