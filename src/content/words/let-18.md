@@ -1,8 +1,8 @@
 ---
-date: 2024-06-17
-title: "Time will tell how much I love you"
-tags: ["Time will tell how much I love you"]
-isDraft: true             
+date: 2024-06-22
+title: ""
+tags: ["words"]
+isDraft: false             
 ---
 
-Time will tell how much I love you
+La distancia es temporal, pero nuestro amor, mi vidita, es permanente.
