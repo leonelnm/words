@@ -1,6 +1,6 @@
 ---
 date: 2024-06-22
-title: ""
+title: "La distancia es temporal"
 tags: ["words"]
 isDraft: false             
 ---
