@@ -19,6 +19,17 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 		<ViewTransitions />
+		<script>
+			(function () {
+				window.counterscale = {
+					q: [["set", "siteId", "loquenopudedecirte.com"], ["trackPageview"]],
+				};
+			})();
+		</script>
+		<script
+			id="counterscale-script"
+			src="https://counterscale.elerickmontenegro.workers.dev/tracker.js"
+			defer></script>
 	</head>
 	<body>
 		<main
