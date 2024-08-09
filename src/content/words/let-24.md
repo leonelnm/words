@@ -2,9 +2,10 @@
 date: 2024-08-08
 title: "un beso.tuyo"
 tags: ["dedicatoria"]
-isDraft: true
+isDraft: false
 song:
-  - https://youtu.be/x1x_s3uD6AY?si=la_lX20GC-fEAkML
+  - url: https://www.youtube.com/embed/x1x_s3uD6AY?si=TwXO6iOFNQn68oE7
+    text: Un beso tuyo
 ---
 
 Solo quiero un beso tuyo  
