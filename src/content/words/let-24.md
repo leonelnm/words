@@ -1,9 +1,9 @@
 ---
 date: 2024-08-08
-title: "un beso.tuyo"
+title: "un beso tuyo"
 tags: ["dedicatoria"]
 isDraft: false
-song:
+songs:
   - url: https://www.youtube.com/embed/x1x_s3uD6AY?si=TwXO6iOFNQn68oE7
     text: Un beso tuyo
 ---
