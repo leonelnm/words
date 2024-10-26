@@ -1,6 +1,12 @@
 ---
-date: 2024-06-29
-title: "bonito"
+date: 2024-10-25
+title: "mujer maravillosa"
 tags: ["dedicatoria"]
-isDraft: true
+isDraft: false
 ---
+
+Eres una mujer maravillosa que la vida me concedió la dicha se conocer.  
+
+Te extraño mucho.  
+
+Perdoname por estar tan lejos sin poder abrazarte cuando lo necesitas.
