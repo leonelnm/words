@@ -5,7 +5,7 @@ tags: ["dedicatoria"]
 isDraft: false
 ---
 
-Eres una mujer maravillosa que la vida me concedió la dicha se conocer.  
+Eres una mujer maravillosa que la vida me concedió la dicha de conocer.  
 
 Te extraño mucho.  
 
