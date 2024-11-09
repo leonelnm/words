@@ -2,7 +2,7 @@
 date: 2024-11-09
 title: "en Otra vida"
 tags: ["dedicatoria"]
-isDraft: true
+isDraft: false
 songs:
   - url: https://www.youtube.com/embed/A2aixdFINOQ?si=iGu-OaT50ffWz23l
     text: En Otra vida 
