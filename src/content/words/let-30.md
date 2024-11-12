@@ -2,7 +2,7 @@
 date: 2024-11-11
 title: "valgo"
 tags: ["poesia"]
-isDraft: true
+isDraft: false 
 ---
 
 Te recomiendo leerlo cuando tengas tiempo y estés relajada, es un texto se internet que me hace pensar en ti e intentar mirar a través de tus ojos
