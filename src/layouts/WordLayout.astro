@@ -16,21 +16,25 @@ const { entry, prev, next } = Astro.props;
 <BaseLayout title={entry.data.title}>
   <!-- class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" -->
   <!-- class="bg-white p-6 shadow-xl sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10" -->
-  <article
-    class="bg-white p-6 shadow-xl rounded-lg sm:max-w-lg sm:mx-auto sm:min-w-96"
+  <div
+    class="flex min-h-screen flex-col justify-center overflow-hidden py-12 px-2 sm:py-12"
   >
-    <VideoPlayer songs={entry.data.songs} />
-    <div class="mx-auto max-w-md">
-      <div class="divide-y divide-gray-300/50">
-        <div
-          class="space-y-6 py-8 text-base leading-7 text-gray-600 leading-7"
-          transition:animate="fade"
-        >
-          <slot />
-        </div>
+    <article
+      class="bg-white p-6 shadow-xl rounded-lg sm:max-w-lg sm:mx-auto sm:min-w-96"
+    >
+      <VideoPlayer songs={entry.data.songs} />
+      <div class="mx-auto max-w-md">
+        <div class="divide-y divide-gray-300/50">
+          <div
+            class="space-y-6 py-8 text-base leading-7 text-gray-600"
+            transition:animate="fade"
+          >
+            <slot />
+          </div>
 
-        <Footer prev={prev} next={next} />
+          <Footer prev={prev} next={next} />
+        </div>
       </div>
-    </div>
-  </article>
+    </article>
+  </div>
 </BaseLayout>
