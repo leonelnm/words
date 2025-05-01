@@ -1,10 +1,14 @@
-
+---
+date: 2025-05-01
+title: "Semana"
+tags: ["dedicatoria","aceptación"]
+isDraft: false
+---
 
 
 Hoy se cumple una semana. 
 
-Qué frágil se vuelve el tiempo cuando el alma pesa.
-No sé cuántas veces al día abro la esperanza disfrazada de mensajes… y solo encuentro silencio.
+Qué frágil se vuelve el tiempo cuando el alma pesa. No sé cuántas veces al día abro la esperanza disfrazada de mensajes… y solo encuentro silencio. 
 Los días pasan, indiferentes.  
 
 Sé que es lo correcto, pero todavía no lo acepto. No he descubierto cómo hacerlo, trabajo en ello. Estoy bien, no me afectan las cosas, o al menos eso me repito, lo que repetías.  
@@ -15,4 +19,6 @@ Los días pasan, por dentro todo sigue quieto, intacto, igual.
 
 Deseo que estés en paz.  
 
+  
+  
 P.D.: Feliz Día del Trabajador.  
